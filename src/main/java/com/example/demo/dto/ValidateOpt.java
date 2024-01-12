@@ -1,0 +1,17 @@
+package com.example.demo.dto;
+
+import com.example.demo.model.Customer;
+import com.example.demo.model.demoOtp;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+public class ValidateOpt {
+	private String status;
+	private Customer customer;
+
+}
